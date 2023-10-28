@@ -1,0 +1,187 @@
+/* font section */
+
+body{font-family: 'Work Sans', sans-serif;}
+*{margin: 0px;}
+
+/* nav section */
+
+nav{display: flex;  justify-content: space-between; padding: 36px 240px 19px 240px; align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);}
+   
+.logo{ width: 5rem;
+       height: 2.5rem;
+       margin-right: 20px; }
+
+.nav-title{font-size: 2.5rem;
+    font-weight: 700; }
+
+.nav-sections a {color: #3C354F; text-decoration: none;}
+
+.nav-sections li{list-style: none;}  
+
+.icon-nav{display: flex; align-items: center;}
+
+.youtube{width: 32px;
+    height: 30px; margin-left: 24px;}
+
+.tiktok{width: 24px;
+    height: 24px; margin-left: 16px; margin-right: 16;}
+
+.color{color: #FF42A5;}
+
+.nav-logo{display: flex; align-items: center;}
+
+.nav-bar{font-size: 1.2rem; font-weight: 500; padding-left: 32px;}
+
+.nav-icon{display: flex; align-items: center; background-color: rgba(11, 2, 35, 0.10); border-radius: 8px; 
+    padding: 16px; margin-left: 30px;}
+
+#follow{font-size: 1.2rem; font-weight: 500;}
+
+.nav-sections{display: flex; align-items: center;}
+
+/* banner section  */
+
+.banner-bg{background-image: url(../images/Group\ 14.png); width: 100%; background-repeat: no-repeat;
+     padding: 148px 300px 148px 230px;}
+
+.banner-section{display: flex; justify-content: space-between;}
+
+.banner-image{display: flex; color: #534C64; font-size: 1.3rem; font-weight: 500; text-transform: lowercase;
+    padding-top: 17px;}
+
+.banner-first-text{color: #0B0223; font-size: 3rem; font-weight: 600; text-transform: uppercase;}
+
+.banner-second-text{font-size: 6rem; font-weight: 800; text-transform: uppercase; 
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+
+.button-first{border-radius: 48px; background:#FF42A5; padding: 21px 40px; border: none;
+    color: #FFF; font-size: 1.3rem; font-weight: 600; text-transform: uppercase; margin-right: 24px; }  
+    
+.button-second{border-radius: 48px; background:#4EC5F7; padding: 21px 40px; border: none;
+    color: #FFF; font-size: 1.3rem; font-weight: 600; text-transform: uppercase;}    
+
+.button-flex{ display: flex; padding-top: 40px;}
+
+/* <!-- Online Games Funny Videos section --> */
+   
+.four-games{display: flex; margin: 48px 240px 120px; gap: 24px; }
+
+#online-first-text{color: #0B0223; font-size: 48px; font-weight: 700; padding-bottom: 16px;}
+
+#online-first-text-mid{background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+ background-clip: text;-webkit-background-clip: text;-webkit-text-fill-color: transparent;
+ font-size: 3rem; font-weight: 700;}
+
+ #online-second-text{color: #534C64; font-size: 1.1rem; font-weight: 400;}
+
+ .online-texts{text-align: center; margin-top: 120px;}
+ .four-games-text{color: #534C64; font-size: 1.3rem; font-weight: 500; padding-top: 24px;}
+
+ /* Play Instantly,No Downloads No Installs section\ */
+
+.play-instant-container{display: flex; justify-content: space-between;}
+
+.play-instant-first-text{color: #0B0223; font-size: 3rem; font-weight: 700; margin-bottom: 30px;
+    text-align: right;}
+
+#pink{background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%); background-clip: text;
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+
+play-instant-second-text{color: #534C64; text-align: right; font-size: 1.1rem; font-weight: 400;
+    text-align: right;}
+
+.play-instant-textbox{margin:330px 100px 200px 320px}
+
+.cowboy{margin: 120px 240px 150px 100px;}
+
+.angela { position: relative; left:890px; bottom:400px; margin-bottom: 0px;}
+
+/* all games section */
+
+.games-category{ display:flex; align-items: center; padding: 10px; border-radius: 50px;
+    background: #FFF; width: 290px; height: 70px; cursor: pointer;}
+
+.image-gap{margin-right: 35px;}
+
+.all-games-bg{background-color: rgba(255, 66, 165, 0.03); width: 1920px;height: 427px; padding-top: 200px;}
+
+.all-sec-text{ font-size: 20px; font-weight: 600;}
+
+.all-games-1{display: flex; justify-content: space-around; margin-left: 200px; margin-right: 200px; margin-bottom: 55px; }
+
+.all-games-2{display: flex;justify-content: space-around; margin-left: 330px; margin-right: 330px; margin-bottom: 140px;}
+
+.games-category:hover{border: 2px solid #FF42A5 ; color: #FF42A5;}
+
+/* footer section */
+
+.footer-bg{background-color: #0B0223;}
+
+.footer-nav a{color: #FFF; text-decoration: none;}
+
+.footer-nav{list-style: none;}
+
+.footer-privacy{color: rgba(255, 255, 255, 0.60); font-size: 1rem; font-weight: 500;
+     padding-left: 60px;}
+
+.social-size{width: 40px; height: 40px; padding-left: 40px; }
+
+.footer-social{display: flex; justify-content: center; align-items: center; margin-bottom: 60px;}
+
+.footer-menus{display: flex; justify-content: center; padding-top: 73px; padding-bottom: 66px;}
+
+.footer-privacy-container{display: flex; justify-content: center; align-items: center; 
+    margin-bottom: 28px;}
+
+.footer-color-2{color: #FFF; margin-left: 20px;}
+
+.options{padding-left: 60px;}
+
+#gamer{display: flex; justify-content: center; align-items: center; padding-top: 120px;}
+
+#copyright{color: rgba(255, 255, 255, 0.60); text-align:center; font-size: 1rem; font-weight: 500;
+padding-bottom:130px;}
+
+
+
+
+
+/* Resposive part of website */
+
+/* For mobile */
+
+@media screen and (max-width: 576px) { nav{ flex-direction: column; padding-bottom: 62px; padding-top: 100px; width: 130%;} .nav-sections{flex-direction: column;} .nav-bar{padding: 20px;}
+
+.banner-section{flex-direction: column-reverse;}  #banner-group{margin-left: 120px;}
+
+.four-games{flex-direction: column;  margin-bottom:0px;} .four-games-text{width: 700px; height: 84.05px; text-align:left;}
+.four-games-all{width: 503px;height: auto} #online-first-text{width: 655px; height: 56px; margin-left: 150px;} #online-second-text{width: 462px; height: 30px; margin-left: 250px;}
+
+.play-instant-container{flex-direction: column;} .angela{position: relative; left: 30px; top: -280px;
+margin-bottom: 0px} .play-instant-textbox{margin-top: 80px; margin-left: 300px; margin-right: 50px;}
+.play-instant-first-text{width: 461.751px; height: 238.163px; text-align: center; margin-bottom: 0px;}
+#play-instant-second-text{width: 478px; height: 119.082px; text-align: center; font-size: 24px;}
+.cowboy{margin: 0px 170px 20px 200px;}
+
+.all-games-1{flex-direction: column; align-items: center; justify-content: center;} .all-games-2{flex-direction: column; padding-bottom: 0px; align-items: center; justify-content: center;}
+.all-games-bg{width: 1000px; height: 1000px; padding-top: 20px; margin-bottom: 0px}
+
+.footer-bg{width: 1000px;
+    height: 700px;}  }
+
+
+
+
+/* For tablet */
+@media only screen and (max-width: 768px) and (min-width: 576px) { *{margin: 0px;} nav{ width:1440px ;}
+#online-first-text{margin-left: 600px; width: 700px;} #online-second-text{ margin-left: 670px; 
+    width: 540px;}.angela{ position: relative; left: 800px; top: -400px}
+
+.play-instant-first-text{width: 341px; margin-right: 100px;}
+      
+    .footer-bg{width: 1920px;
+    height: 700px; padding-bottom: 0px;}
+}
